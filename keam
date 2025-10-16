@@ -1,1 +1,90 @@
-malik
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>October 2025 Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        .timetable {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: white;
+        }
+        .timetable th, .timetable td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        .timetable th {
+            background-color: #4CAF50;
+            color: white;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        .timetable tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .timetable tr:hover {
+            background-color: #f1f1f1;
+        }
+        .subject-col {
+            text-align: left !important;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>October 2025 Timetable</h1>
+
+    <table class="timetable">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Subject</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01/10/2025</td>
+                <td>2:00 PM - 3:00 PM</td>
+                <td class="subject-col">Operating Systems</td>
+                <td>606 N.B</td>
+            </tr>
+            <tr>
+                <td>02/10/2025</td>
+                <td>12:00 PM - 1:00 PM</td>
+                <td class="subject-col">Research Method</td>
+                <td>C10 OB</td>
+            </tr>
+            <tr>
+                <td>02/10/2025</td>
+                <td>4:00 PM - 5:00 PM</td>
+                <td class="subject-col">Database</td>
+                <td>4th floor lib</td>
+            </tr>
+            <tr>
+                <td>03/10/2025</td>
+                <td>11:00 AM - 12:00 PM</td>
+                <td class="subject-col">Probability</td>
+                <td>Main hall (B)</td>
+            </tr>
+            <tr>
+                <td>03/10/2025</td>
+                <td>5:00 PM - 6:00 PM</td>
+                <td class="subject-col">System Analysis</td>
+                <td>4th floor lib</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
